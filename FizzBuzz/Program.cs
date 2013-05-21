@@ -16,7 +16,7 @@ namespace FizzBuzz
                         Console.WriteLine("FizzBuzz");
                     else if (m % 3 == 0)
                         Console.WriteLine("Fizz");
-                    else if (m % 3 == 0)
+                    else if (m % 5 == 0)
                         Console.WriteLine("Buzz");
                     else
                         Console.WriteLine(m);
